@@ -10,6 +10,7 @@
       v-model="newTodo"
       @keyup.enter="addTodo">
   </header>
+  <link rel="stylesheet" href="https://unpkg.com/todomvc-app-css@2.2.0/index.css">
   <script src="https://unpkg.com/vue@2.6.10/dist/vue.js"></script>
   <section class="main" v-show="todos.length" v-cloak>
     <input id="toggle-all" class="toggle-all" type="checkbox" v-model="allDone">
